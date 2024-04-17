@@ -1,0 +1,8 @@
+--- sources/token.move
++++ sources/token.move
+@@ -10 +10 @@
+-    struct DevNetNFT has key, store {
++    public struct DevNetNFT has key, store {
+@@ -23 +23 @@
+-    struct NFTMinted has copy, drop {
++    public struct NFTMinted has copy, drop {
