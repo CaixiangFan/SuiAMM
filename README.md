@@ -31,6 +31,15 @@ sui client call \
 --gas-budget 100000000
 ```
 
+```
+sui client call \
+--function mint \
+--module moneytoken \
+--package 0xaf5792eab0963e2b0856e0c75cb2f8458a494ec9c8e1174d8ea4d51af7b3fdaf \
+--args 0xd70f3210e16d764226d3b080ee823498ab4354a2553b4444d36d8d6b3e940663 100000000 0xadaee10b2fa28751ad046e0bd30404395f3fac424f48856c19e557fa68a5f810 \
+--gas-budget 100000000
+```
+
 `Function mint:`
 Create a coin worth value and increase the total supply in cap accordingly.
 
@@ -54,3 +63,4 @@ sui client call \
 ```
 
 `0xa06b8af2a21e71d4726410c15d6333a02f449ca590403003f751169bbb6cfc6f` is the object id to be burned.
+
